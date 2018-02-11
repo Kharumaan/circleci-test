@@ -1,0 +1,25 @@
+{
+  "name": "circleci-test",
+  "version": "1.0.0",
+  "description": "My first test using CircleCI service (circleci.com)",
+  "main": "src/sketch.js",
+  "scripts": {
+    "test": "jest --testMatch **/test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndBug/circleci-test.git"
+  },
+  "keywords": [
+    "circleci"
+  ],
+  "author": "Federico Grandi <fgrandi30@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EndBug/circleci-test/issues"
+  },
+  "homepage": "https://github.com/EndBug/circleci-test#readme",
+  "devDependencies": {
+    "jest": "^22.2.2"
+  }
+}
